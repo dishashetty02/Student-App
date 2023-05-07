@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="362dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/img_1"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:hint="Name"
+android:paddingLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_border"/>
+    />
+
+    <EditText
+        android:id="@+id/USN"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:hint="USN"
+        android:paddingLeft="10dp"
+
+        android:layout_marginBottom="15dp"
+        android:inputType="text"
+        android:background="@drawable/edit_text_border"/>
+    />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_border"
+
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_border"
+
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="360dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="@color/indigo"/>
+
+
+
+</LinearLayout>
