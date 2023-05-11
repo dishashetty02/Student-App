@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contacts">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="385dp"
+            android:layout_height="716dp">
+
+            <!-- Table Header -->
+            <TableRow>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:textColor="#0000FF"
+                    android:text="Name"
+                    android:textStyle="bold"
+                    android:textSize="25sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:textColor="#0000FF"
+                    android:text="Contact Details"
+                    android:textStyle="bold"
+                    android:textSize="25sp" />
+            </TableRow>
+            <!-- Row 1 -->
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Dr.Niranjan N.           Chiplunkar"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="principal_nmamit@nitte.edu.in"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <!-- Row 2 -->
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Dr. Jyothi Shetty"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="jyothi_shetty@nitte.edu.in"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <!-- Row 3 -->
+
+
+            <!-- Row 4 -->
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Placement Department"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="placement.nmamit@nitte.edu.in"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Bharath G. Kumar"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Ph: +91 9902414602    "
+                    android:textSize="15sp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Praveen Anna"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="ph: 12345667"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Prem Anna"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text=" ph:897675453"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="ACE"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="ace@gmail.com"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="CSI"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="csi@gmail.com"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="ISTE"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="iste@gmail.com"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="RE office"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="re_office@gmail.com"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Library"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="lib_nitte@gmail.com"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Security"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="security_asso@gmail.com"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Sanmathi Cafe"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="ph: 876576435"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Xerox-Ramanujan"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="ph:876567547"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Xerox-Kalam "
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="ph:879654686"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Durga Canteen"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="ph:986754678"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Moodle"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="http://guru.nmamit.in/"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Parent-Login"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="http://parent-login.nmamit.in/"
+                    android:textSize="15dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="Results"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_weight="100"
+                    android:padding="5dp"
+                    android:text="http://results.nmamit.in/"
+                    android:textSize="15dp" />
+            </TableRow>
+
+        </TableLayout>
+
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
